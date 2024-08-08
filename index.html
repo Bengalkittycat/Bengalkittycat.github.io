@@ -19,11 +19,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '652049113181443');
 fbq('track', 'PageView');
-<button id="addToCartButton">Purchase</button>
-<script type="text/javascript">
-  $('#addToCartButton').click(function() {
-    fbq('track', 'Purchase', {currency: "USD", value: 30.00});
-  });
+fbq('track', 'AddToCart');
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=652049113181443&ev=PageView&noscript=1"
